@@ -1,0 +1,23 @@
+html, body {
+  background-color: #6b5fff;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Rubik, sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: pre-wrap;
+
+  color: white;
+  -webkit-text-stroke: 20px black;
+  paint-order: stroke fill;
+}
+
+h1 {font-size: 1000%;}
