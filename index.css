@@ -6,7 +6,7 @@ html, body {
     overflow: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, #title {
     font-family: Rubik, sans-serif;
     text-align: center;
     font-style: normal;
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     white-space: pre-wrap;
 
     color: white;
-    -webkit-text-stroke: 20px black;
+    -webkit-text-stroke: 30px black;
     paint-order: stroke fill;
     animation: spin 3s linear infinite;
 }
@@ -30,4 +30,4 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-h1 {font-size: 1000%;}
+h1 {font-size: 200px;}
